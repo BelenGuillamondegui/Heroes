@@ -1,0 +1,188 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap");
+* {
+  margin: 0px;
+}
+body {
+  width: 769px;
+}
+.cajadescuento {
+  position: absolute;
+  width: 769px;
+  height: 38px;
+  left: 0px;
+  top: 0px;
+  background: #1cd1b0;
+}
+.descuentos {
+  position: absolute;
+  width: 111px;
+  height: 18px;
+  left: 10px;
+  top: 10px;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 15px;
+  line-height: 18px;
+}
+
+.cajaheroes {
+  position: absolute;
+  width: 769px;
+  height: 101px;
+  left: 0px;
+  top: 38px;
+  background: #00669f;
+  box-shadow: 0px 10px 7px rgba(0, 0, 0, 0.25);
+}
+.heroes {
+  position: absolute;
+  width: 128px;
+  height: 47px;
+  left: 18px;
+  top: 46px;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 40px;
+  line-height: 47px;
+  color: #000000;
+}
+header div ul {
+  background-color: #001d2d;
+  display: flex;
+  justify-content: flex-end;
+}
+div ul li {
+  color: white;
+  font-size: 16px;
+}
+.texto {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  position: absolute;
+  font-size: 40px;
+  line-height: 47px;
+  width: 128px;
+  left: 28px;
+  top: 16px;
+}
+.contenedor {
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 150px;
+  margin-left: 30px;
+  padding: 10px;
+  text-align: center;
+  flex-wrap: wrap;
+}
+
+.contenedor article {
+  position: relative;
+  margin-top: 50px;
+  height: 450px;
+  width: 240px;
+  background-color: #f3f3f3;
+  font-size: 15px;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+}
+img {
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+}
+h2 {
+  text-transform: uppercase;
+  font-size: 15px;
+  padding-top: 50px;
+}
+.contenedor p {
+  font-size: 15px;
+  text-align: center;
+  margin-bottom: 20px;
+  padding: 20px 5px 10px;
+}
+.circulo {
+  position: absolute;
+  left: 70px;
+  top: 100px;
+  border-radius: 75px;
+}
+i {
+  position: absolute;
+  font-size: 30px;
+  color: red;
+  left: 20px;
+  top: 20px;
+}
+.contenedor span {
+  background-color: #00669f;
+  color: white;
+  padding: 10px 30px;
+  border-radius: 3px;
+}
+section {
+  background-color: #00669f;
+  height: 100px;
+  position: relative;
+  bottom: 0px;
+}
+section p {
+  position: absolute;
+  top: 40px;
+  font-size: 16px;
+  text-align: center;
+  color: white;
+  left: 240px;
+}
+section img {
+  position: absolute;
+  top: 25px;
+  right: 10px;
+}
+@media (min-width: 1060px) {
+  .contenedor {
+    width: 100vw;
+  }
+}
+@media (min-width: 770px) {
+  body {
+    width: 100vw;
+  }
+  .cajadescuento {
+    width: 100vw;
+  }
+  .cajaheroes {
+    width: 100vw;
+  }
+  .contenedor p {
+    font-size: 1rem;
+  }
+  footer {
+    position: absolute;
+    bottom: 0px;
+  }
+
+  section {
+    width: 100vw;
+  }
+  section p {
+    position: absolute;
+    width: 60vw;
+    font-size: 2rem;
+  }
+}
+
+@media (max-width: 700px) {
+  .contenedor {
+    flex-wrap: wrap;
+    padding: 30px;
+    width: 50vw;
+  }
+  section p {
+    position: absolute;
+    width: 60vw;
+    font-size: 1rem;
+  }
+}
